@@ -1,0 +1,28 @@
+// FONDO
+.fondonav { 
+    background: url(../assets/imagenes/fondonavv.jpg) center center no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    height:220px;
+    width: 100%;
+}
+
+// CARDS
+.card {
+    background-color: $bg-color-card;
+    margin: 20px;
+}
+
+.btn-primary {
+    color: $color-card;
+    background-color: $bg-card;
+    border-color: $color-card;
+}
+
+.cardsIn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

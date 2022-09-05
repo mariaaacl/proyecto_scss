@@ -1,0 +1,20 @@
+// MENU
+.navbar-nav{
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: $color-gen;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: $color-gen;
+}
+
+.navbar {
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}

@@ -1,0 +1,49 @@
+// VARIABLES
+$bg-color: #302e2e;
+$color-gen: #ffffffb5;
+$bg-color-card: #4c4c4c;
+$bg-card: #5b5d5f;
+$color-card: #aaadb1;
+
+// GENERAL
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif; 
+    background-color: $bg-color;
+    color: $color-gen;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 12px;
+}
+
+p {
+    text-align: justify;}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 45%;
+}
+
+h1 {
+    text-align: center;
+}
+
+// VISTAS
+
+@media only screen and (min-width: 0px) and (max-width:768px) {
+
+    .aboutM {
+        padding: 10px;
+        border: 2px solid;
+    }
+    
+    .contenedorFormInf {
+        box-shadow: 0 0 20px 0 #ffffff4d;
+        display: grid;
+        margin-bottom: 30px;
+    }
+    
+    }
