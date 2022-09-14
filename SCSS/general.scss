@@ -23,7 +23,12 @@ body {
 
 // VISTAS
 
-@media only screen and (min-width: 0px) and (max-width:768px) {
+@media only screen and (min-width: 0px) and (max-width:800px) {
+
+    .imgTes {
+        padding-left: 120px;
+        padding-top: 45px;
+    }
 
     .aboutM {
         padding: 10px;
@@ -33,20 +38,23 @@ body {
     .contenedorFormInf {
         box-shadow: 0 0 20px 0 #ffffff4d;
         display: grid;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
     
     .pie-pagina {
         width: 100%;
-        background-color: white;
+        background-color: #4c4c4c;
     
         .grupo-1 {
-            width: 90%;
+            width: auto;
             grid-template-columns: repeat(1, 1fr);
-            gap: 30px;
-            padding: 35px 0px;
+            justify-items: center;
+            text-align: center;
+            padding: 20px 20px;
+            gap: 0px;
 
         }
     }
+
 
     }
