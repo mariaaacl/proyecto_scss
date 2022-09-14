@@ -247,8 +247,7 @@ body {
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
   .imgTes {
-    padding-left: 120px;
-    padding-top: 45px; }
+    padding: 50px; }
   .aboutM {
     padding: 10px;
     border: 2px solid; }
