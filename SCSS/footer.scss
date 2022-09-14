@@ -1,7 +1,73 @@
-.footer {
-    display: flex;
-    flex-direction: row;
-    padding-top: 5px;
-    padding-left: 10px;
-    gap: 5px;
- }
+.pie-pagina {
+    width: 100%;
+    background-color: #4c4c4c;
+
+    .grupo-1 {
+        width: 100%;
+        max-width: 1250px;
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 45px 0px;
+
+        .red-social {
+            a {
+                margin: 10px;
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                color: black;
+                margin-right: 10px;
+                background-color: #aaadb1;
+                text-align: center;
+                transition: all 300ms ease;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+            .box {
+                
+                p { 
+                    color: black;
+                    margin-bottom: 10px;
+                }
+
+                h2 {
+                    color: black;
+                    margin-bottom: 25px;
+                    font-size: 20px;
+                }
+            
+                figure {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                    .img {
+                        width: 250px;
+                    }
+                }
+            }
+
+    }
+
+    .grupo-2 {
+        background-color: #aaadb1;
+        padding: 15px 10px;
+        text-align: center;
+        color: black;
+
+        small {
+            font-size: 15px;
+        }
+    }
+}
+

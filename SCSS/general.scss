@@ -1,15 +1,12 @@
 // VARIABLES
 $bg-color: #302e2e;
-$color-gen: #ffffffb5;
+$color-gen: #000000;
 $bg-color-card: #4c4c4c;
 $bg-card: #5b5d5f;
 $color-card: #aaadb1;
 
 // GENERAL
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif; 
+body { 
     background-color: $bg-color;
     color: $color-gen;
 }
@@ -19,16 +16,9 @@ body {
     padding: 12px;
 }
 
-p {
-    text-align: justify;}
-
 .col-2 {
     flex: 0 0 auto;
     width: 45%;
-}
-
-h1 {
-    text-align: center;
 }
 
 // VISTAS
@@ -46,4 +36,17 @@ h1 {
         margin-bottom: 30px;
     }
     
+    .pie-pagina {
+        width: 100%;
+        background-color: white;
+    
+        .grupo-1 {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+            padding: 35px 0px;
+
+        }
+    }
+
     }
