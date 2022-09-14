@@ -6,6 +6,12 @@ $bg-card: #5b5d5f;
 $color-card: #aaadb1;
 
 // GENERAL
+.titulos {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
 body { 
     background-color: $bg-color;
     color: $color-gen;
