@@ -6,15 +6,31 @@ $bg-card: #5b5d5f;
 $color-card: #aaadb1;
 
 // GENERAL
+$estilosG :(
+    ancho: 100%,
+    alto: 100%,
+    txtJustificado: justify,
+    txtCentro: center,
+);
+
+p {
+    text-align: map-get($estilosG, txtJustificado);
+}
+
+h1 {
+    text-align: map-get($estilosG, txtCentro);
+}
+
+.imagen img {
+    width: map-get($estilosG, ancho);
+    height: map-get($estilosG, alto);
+}
+
 .titulos {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
-}
-
-body { 
-    background-color: $bg-color;
-    color: $color-gen;
+    padding-bottom: 20px;
 }
 
 .container-fluid {
@@ -24,12 +40,16 @@ body {
 
 .col-2 {
     flex: 0 0 auto;
-    width: 45%;
+    width: 30%;
 }
 
 // VISTAS
 
 @media only screen and (min-width: 0px) and (max-width:800px) {
+
+    .col-2 {
+        width: 100%;
+    }
 
     .imgTes {
         padding: 50px;

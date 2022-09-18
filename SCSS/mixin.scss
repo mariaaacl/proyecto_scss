@@ -1,9 +1,11 @@
-@mixin margin-padding-font {
+@mixin margin-padding-font-bgcolor {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    background-color: #302e2e;
+    color: #8b8b8b;
 }
 
 body {
-    @include margin-padding-font
+    @include margin-padding-font-bgcolor
 }

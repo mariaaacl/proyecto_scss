@@ -1,3 +1,10 @@
+$bg-color: #302e2e;
+$color-gen: #000000;
+$bg-color-card: #4c4c4c;
+$bg-card: #5b5d5f;
+$color-card: #aaadb1;
+
+
 // FONDO
 .fondonav { 
     background: url(../assets/imagenes/fondonavv.jpg) center center no-repeat;
@@ -13,6 +20,11 @@
 .card {
     background-color: $bg-color-card;
     margin: 20px;
+    border-radius: 2.25rem;
+}
+
+.btn {
+    border-radius: 2.25rem;
 }
 
 .btn-primary {
