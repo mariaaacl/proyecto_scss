@@ -1,11 +1,17 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "section" "pie-pagina"; }
+
 .navbar-nav {
   text-align: center; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #000000; }
+  color: #8b8b8b; }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: #000000; }
+  color: #8b8b8b; }
 
 .navbar {
   padding-bottom: 0px; }
@@ -161,10 +167,11 @@
 .contenedorFormInf {
   box-shadow: 0 0 20px 0 #ffffff4d;
   display: grid;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin: 75px; }
 
 .contenedorFormInf > * {
-  padding: 1em; }
+  padding: 2em; }
 
 .contact-form form {
   display: grid;
